@@ -24,7 +24,7 @@
    > _**Not:** Bonus dosyaları için ayrıca 'make bonus' komutunu çalıştırmanız gerekmektedir._
 
 4. ***Server*** uygulamasını başlatın:
-    ```Console
+    ```Sh
     bboluk@bboluk42 Minitalk % ./server
     ```
 5. ***Client*** uygulamasını kullanarak veri gönderin:
