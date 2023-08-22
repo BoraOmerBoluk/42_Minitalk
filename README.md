@@ -1,7 +1,7 @@
 # 42_Minitalk
 
 ## Projenin Amacı
-`Minitalk` projesi, C programlama dilinde geliştirilmiş bir iletişim uygulamasıdır. Projenin temel amacı, düşük seviyeli soket işlemleri kullanarak istemci ve sunucu arasında güvenilir veri iletimini gerçekleştirmektir. Özellikle, veri bütünlüğünün korunması ve veri iletiminin hızlı ve hatasız bir şekilde sağlanması hedeflenir.
+`Minitalk` projesi, C programlama dilinde geliştirilmiş bir iletişim uygulamasıdır. Projenin temel amacı, süreçler arası iletişimde sinyal işlemleri kullanarak istemci ve sunucu arasında güvenilir veri iletimini gerçekleştirmektir. Özellikle, veri bütünlüğünün korunması ve veri iletiminin hızlı ve hatasız bir şekilde sağlanması hedeflenir.
 
 ## Nasıl Kullanılır
 
