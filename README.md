@@ -18,14 +18,19 @@
 3. ***Client*** ve ***Server*** uygulamasını sırayla derleyin:
    ```Console
    bboluk@bboluk42 Minitalk % make
+   ```
+   ```sh  
    gcc -Wall -Wextra -Werror server.c -o server
    gcc -Wall -Wextra -Werror client.c -o client
    ```
    > _**Not:** Bonus dosyaları için ayrıca 'make bonus' komutunu çalıştırmanız gerekmektedir._
 
 4. ***Server*** uygulamasını başlatın:
-    ```Sh
+    ```Console
     bboluk@bboluk42 Minitalk % ./server
+    ```
+    ```sh
+    PID: SUNUCU_PID
     ```
 5. ***Client*** uygulamasını kullanarak veri gönderin:
     ```Console
