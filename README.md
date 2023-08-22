@@ -37,7 +37,7 @@
     bboluk@bboluk42 Minitalk % ./client SUNUCU_PID* "Merhaba, Minitalk!👋🏻"
     ```
    > _**Not:**  
-   > *:SUNUCU_PID kısmına `./server`'ı çalıştırdığımızda bize verdiği "PID" numarasını yazmalıyız._
+   > *: SUNUCU_PID kısmına `./server`'ı çalıştırdığımızda bize verdiği "PID" numarasını yazmalıyız._
 
 ## Projenin Özellikleri
 ***1. Düşük Seviyeli İletişim:*** Minitalk, süreçler arası iletişimde sinyal işlemleri kullanarak istemci ve sunucu arasında iletişim kurar. Bu, doğrudan veri iletimi ve alımını sağlar.  
