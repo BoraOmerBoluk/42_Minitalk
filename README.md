@@ -40,7 +40,7 @@
    > *:SUNUCU_PID kısmına `./server`'ı çalıştırdığımızda bize verdiği "PID" numarasını yazmalıyız._
 
 ## Projenin Özellikleri
-***1. Düşük Seviyeli İletişim:*** Minitalk, düşük seviyeli soket işlemleri kullanarak istemci ve sunucu arasında iletişim kurar. Bu, doğrudan veri iletimi ve alımını sağlar.  
+***1. Düşük Seviyeli İletişim:*** Minitalk, süreçler arası iletişimde sinyal işlemleri kullanarak istemci ve sunucu arasında iletişim kurar. Bu, doğrudan veri iletimi ve alımını sağlar.  
 ***2. Veri İletim Protokolü:*** İletilen veri, özel bir protokol üzerinden parçalara bölünür ve sunucuya gönderilir. Bu sayede verinin güvenliği ve bütünlüğü sağlanır.  
 ***3. Hata Kontrolü:*** Sunucu, veriyi alırken hata kontrolü yapar. Bu sayede iletilen verinin bozulup bozulmadığı kontrol edilir ve veri bütünlüğü korunur.  
 
@@ -53,7 +53,7 @@
 6. `Client`, geri dönüş değerini alarak verinin başarıyla iletilip iletilmediğini doğrular.
 
 ## Katkıda Bulunma
-Eğer bu projeye katkıda bulunmak isterseniz, fork ve pull request oluşturursanız sevinirim. Reporsitory güncellenmeden önce gerekli testleri yaptığınızdan emin olunuz 😃.
+Eğer bu projeye katkıda bulunmak isterseniz, fork ve pull request oluşturursanız sevinirim. Repository güncellenmeden önce gerekli testleri yaptığınızdan emin olunuz 😃.
  
 ## Kaynaklar  
 Bu proje, _42 School_ tarafından verilen görevlerden biridir. Proje ile ilgili daha fazla bilgi ve detaylı açıklamalar için klasör içindeki tr.subject.pdf dosyasını inceleyebilirsiniz.
