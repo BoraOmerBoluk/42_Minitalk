@@ -44,9 +44,9 @@ int	main(int ac, char **av)
 	int	j;
 
 	i = 0;
-	pid = ft_atoi(av[1]);
-	if (ac != 3)
+	if (ac < 3)
 		return (0);
+	pid = ft_atoi(av[1]);
 	while (av[2][i])
 	{
 		j = 7;
